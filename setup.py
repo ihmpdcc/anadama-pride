@@ -1,10 +1,17 @@
 from setuptools import setup, find_packages
 from setuptools.command.install import install
-		
+
+def get_version():
+    version_fh = open("CHANGES", "r")
+    first_line = version_fh.readline().strip()
+    version_fh.close()
+    version = first_line.split()[1]
+    return version
+
 setup(
     name='pride',
-    version='0.0.1',
-    description="Transfer sequence files and metadata from the iHMP DCC to PRIDE repository",
+    version=get_version(),
+    description="Framework for submitting proteomics data to the PRIDE archive at EBI",
     packages=["pride"],
     zip_safe=False,
     install_requires=[
