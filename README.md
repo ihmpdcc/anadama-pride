@@ -12,7 +12,7 @@ Framework for submitting proteomics data to the PRIDE archive at EBI
 ###Installation Steps
 * Install OSDF-python:
 ```
-pip install 'git+https://github.com/ihmpdcc/osdf-python.git@master#egg=osdf-python-0.3.1'
+pip install osdf-python
 ```
 * Install cutlass:
 ```
