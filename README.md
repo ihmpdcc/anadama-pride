@@ -10,20 +10,23 @@ Framework for submitting proteomics data to the PRIDE archive at EBI
 - Aspera ascp client
 
 ###Installation Steps
-1. Install OSDF-python:
+* Install OSDF-python:
 ```
 pip install 'git+https://github.com/ihmpdcc/osdf-python.git@master#egg=osdf-python-0.3.1'
 ```
-2. Install cutlass:
+* Install cutlass:
 ```
 pip install 'git+https://github.com/ihmpdcc/cutlass.git@master#egg=osdf-cutlass-0.8.1'
 ```
-3. Install ANADAMA:
+* Install ANADAMA:
 ```
 pip install 'git+https://bitbucket.org/biobakery/anadama.git@master#egg=anadama-0.0.1'
 ```
-4. Install PRIDE module:
-5. Install aspera ascp client:
+* Install PRIDE module:
+```
+pip install 'git+https://github.com/ihmpdcc/anadama-pride.git@master#egg=pride-0.0.1'
+```
+* Install aspera ascp client:
 Download file from `‘http://downloads.asperasoft.com/en/downloads/50’`
 Run the installation binary
 
