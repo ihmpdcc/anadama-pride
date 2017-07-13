@@ -30,6 +30,14 @@ pip install 'git+https://github.com/ihmpdcc/anadama-pride.git@master#egg=pride-0
 Download file from `‘http://downloads.asperasoft.com/en/downloads/50’`
 Run the installation binary
 
+##Before running the pipeline:
+
+1. Register to the PRIDE website 'https://www.ebi.ac.uk/pride/archive/'.
+
+2. Contact 'pride-support@ebi.ac.uk' to get your FTP server credentials.
+
+Visit 'http://www.ebi.ac.uk/pride/help/archive/submission' to get more information about submitting data to PRIDE.
+
 ##Running the pipeline:
 
 1. Update the configuration file ‘.anadama_pride’.
@@ -53,3 +61,5 @@ anadama help pipeline pride
 anadama help pipeline
 anadama help
 ```
+##After runnig the pipeline:
+ Email PRIDE support at 'pride-support@ebi.ac.uk' to notify them about your submission.
