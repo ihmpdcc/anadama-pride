@@ -1,0 +1,4 @@
+osdf-python
+git+https://bitbucket.org/biobakery/anadama.git
+git+https://github.com/ihmpdcc/cutlass.git
+git+https://github.com/ihmpdcc/anadama-pride.git
