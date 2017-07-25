@@ -44,7 +44,7 @@ as dependencies.
 $ curl -O https://raw.githubusercontent.com/ihmpdcc/anadama-pride/master/requirements.txt
 ```
 
-This will download the requiements.txt file and place it into your current
+This will download the requirements.txt file and place it into your current
 working directory.
 
 * Install the software 
