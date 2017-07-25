@@ -1,7 +1,11 @@
 # anadama-pride
+
 Framework for submitting proteomics data to the PRIDE archive at EBI 
-##Installation
-###Requirements
+
+## Installation
+
+### Requirements
+
 - Python 2.7
 - Java x64 (1.8 bit or higher)
 - Git
@@ -9,7 +13,7 @@ Framework for submitting proteomics data to the PRIDE archive at EBI
 - Pip
 - Aspera ascp client
 
-###Installation Steps
+### Steps
 * Install OSDF-python:
 ```
 pip install osdf-python
@@ -30,7 +34,7 @@ pip install 'git+https://github.com/ihmpdcc/anadama-pride.git@master#egg=pride-0
 Download file from `‘http://downloads.asperasoft.com/en/downloads/50’`
 Run the installation binary
 
-##Before running the pipeline:
+## Before running the pipeline:
 
 1. Register to the PRIDE website 'https://www.ebi.ac.uk/pride/archive/'.
 
@@ -38,7 +42,7 @@ Run the installation binary
 
 Visit 'http://www.ebi.ac.uk/pride/help/archive/submission' to get more information about submitting data to PRIDE.
 
-##Running the pipeline:
+## Running the pipeline:
 
 1. Update the configuration file ‘.anadama_pride’.
 The configuration file is placed in the directory along with pride python code files during installation. 
@@ -61,5 +65,5 @@ anadama help pipeline pride
 anadama help pipeline
 anadama help
 ```
-##After runnig the pipeline:
+## After runnig the pipeline:
  Email PRIDE support at 'pride-support@ebi.ac.uk' to notify them about your submission.
